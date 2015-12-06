@@ -3,14 +3,14 @@ package template;
 public abstract class PizzaFactory {
 
 	/**
-	 * ÖÆ×÷ÉúÃæÍÅ
+	 * åˆ¶ä½œç”Ÿé¢å›¢
 	 */
 	public void makeDough() {
 		System.out.println("Make dough");
 	}
 	
 	/**
-	 * Ìí¼Óµ÷ÁÏ
+	 * æ·»åŠ è°ƒæ–™
 	 */
 	public void addSauce() {
 		System.out.println("Add Sauce");
@@ -24,7 +24,10 @@ public abstract class PizzaFactory {
 	
 	
 	
-	public void makePizza() {
+	/**
+	 * ç®—æ³• çš„æ¡†æ¶åº”è¯¥è¢«å£°æ˜ä¸ºfinal
+	 */
+	public final void makePizza() {
 		makeDough();
 		addSauce();
 		addCheese();
