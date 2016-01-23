@@ -1,7 +1,1 @@
-/adapter/
-/decorator/
-/facade/
-/factory/
-/observer/
-/singleton/
-/template/
+/Command/
